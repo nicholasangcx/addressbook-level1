@@ -52,8 +52,8 @@
 || Enter command: || [Command entered:  sfdfd]
 || Invalid command format: sfdfd 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || find: Finds all persons whose names contain any of the specified keywords (case-sensitive) and displays them as a list with index numbers.
 || 	Parameters: KEYWORD [MORE_KEYWORDS]
@@ -82,43 +82,43 @@
 || Enter command: || [Command entered:  add wrong args wrong args]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 valid@email.butNoPrefix]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name 12345 e/valid@email.butPhonePrefixMissing]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add []\[;] p/12345 e/valid@e.mail]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/not_numbers e/valid@e.mail]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 e/notAnEmail]
 || Invalid command format: add 
 || add: Adds a person to the address book.
-|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
-|| 	Example: add John Doe p/98765432 e/johnd@gmail.com
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL o/OCCUPATION
+|| 	Example: add John Doe p/98765432 e/johnd@gmail.com o/student
 || 
 || ===================================================
 || Enter command: || [Command entered:  add Adam Brown p/111111 e/adam@gmail.com]

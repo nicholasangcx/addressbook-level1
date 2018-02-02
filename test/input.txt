@@ -28,9 +28,9 @@
   add Valid Name p/12345 e/notAnEmail
 
   # should add correctly
-  add Adam Brown p/111111 e/adam@gmail.com
+  add Adam Brown p/111111 e/adam@gmail.com o/student
   list
-  add Betsy Choo p/222222 e/benchoo@nus.edu.sg
+  add Betsy Choo p/222222 e/benchoo@nus.edu.sg o/student
   list
 
   # order of phone and email should not matter
